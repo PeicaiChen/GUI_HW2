@@ -1,0 +1,119 @@
+/*
+File: HW2.css
+GUI Assignment: GUI Assignment: Style a Site with External
+CSS so that the page looks similar to the desired format
+after resizing. 
+Peicai Chen
+9/30/2021 
+*/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("ptrbackground.jpg");
+}
+#wrapper{
+	background-color: #ccf2ff;	
+	min-width: 600px; 
+	width: 80%;
+	margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    margin-top: -22px;
+}
+h1 {
+	
+	margin-bottom: 0;
+	padding: 10px;
+	background-image:url(sunset.jpg) ;
+	background-position: center right;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	color: #FFFFFF;
+	
+}
+nav{
+	display: block;
+	float: left;
+	width: 80px;
+
+}
+nav a{
+	color: #00004d;
+	font-weight: bold;
+}
+nav a:visited {
+	color: #344873;	
+}
+nav a:hover {
+	color: #FFFFFF;	
+}
+nav a:link {
+	text-decoration: none;
+}
+nav ul {
+	font-size: 1em;
+	list-style: none;
+	padding-left: 15px;
+	
+}
+#content{
+	background-color: white;	
+	display: block; 
+    float: right;
+    width: 83%;
+    padding-left: 20px;
+}
+
+#content p{
+	float: right;
+    font-size: 90%;
+    max-width: 661px;
+    min-width: 40px;
+}
+#content ul {
+	font-size: 90%;
+    float:none;
+    list-style-image: url(marker.gif);
+    
+} 
+ #contact {
+	font-size: 80%;
+    float: none;  
+
+} 
+
+footer {
+    font-size:75%;
+    display: block;
+	background-color: white;
+	float: right;
+    width: 82.2%;
+    padding:15px;
+    font-style: italic;
+   
+    font-family: Georgia, "Times New Roman", serif;
+
+}
+
+.resort{
+	 color:#0073e6;
+	 font-weight: bold;
+}
+
+
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+dt {
+	color: #000033;
+}
